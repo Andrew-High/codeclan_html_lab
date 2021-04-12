@@ -1,0 +1,65 @@
+body {
+    margin : 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue;
+}
+
+body > header > h1 {
+    color: white;
+    margin: 0;
+    padding: 20px
+}
+
+body > header > nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+    
+}
+
+body > main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+body > main > section {
+    width: 70%;
+    margin: auto
+}
+
+.comments-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px
+
+}
+
+body > footer {
+    background-color: dodgerblue;
+    margin: 0;
+}
+body > footer > section { 
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px
+}
+
+button > a {
+    color: black;
+}
